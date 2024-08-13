@@ -1,0 +1,119 @@
+/*===============
+    css reset
+=================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+/*===============
+formatação geral
+=================*/
+
+html {
+    font-size: calc(5px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243D;
+
+}
+
+html body a {
+    text-decoration: none;
+    color: #21243D;
+    
+}
+
+
+/*===============
+formatacao do topo
+=================*/
+
+header {
+
+    margin: 0 5vw 3vw 5vw ;
+}
+header nav ul {
+
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li {
+    margin: 1vw 5px 5px;
+}
+
+header nav ul li.cor a {
+
+    color: #ff6464;
+}
+
+/*===============
+formatacao de conteudo
+=================*/
+main.works section:last-child{
+
+    border: none;
+}
+main.works {
+
+    margin:0 13vw 0 13vw ;
+}
+main.works section {
+
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2vw 0 2vw 0;
+}
+main.works h1 {
+
+    margin: 0 0 0 0;
+    font-weight: normal;
+    
+
+}
+ section p {
+
+  margin: 2vw 0 2vw 0;
+  
+
+}
+
+
+
+main.works section p span {
+
+    background-color: #ff6464;
+    color: white;
+    border-radius: 35px;
+    font-weight: 700;
+    padding: 2px 5px 2px 5px;
+}
+
+/*===============
+formatacao do rodape
+=================*/
+
+footer {
+
+    text-align: center;
+    margin: 1vw 0 1vw 0;
+}
+
+footer nav ul {
+
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li a {
+
+    padding: 6px;
+    color: rgb(124, 126, 27);
+    margin: 0;
+    font-size: 32px;
+    
+    
+}
