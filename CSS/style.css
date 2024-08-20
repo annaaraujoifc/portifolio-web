@@ -27,6 +27,11 @@ html body a {
     
 }
 
+main {
+
+    margin:0 13vw 0 13vw ;
+}
+
 
 /*===============
 formatacao do topo
@@ -52,16 +57,14 @@ header nav ul li.cor a {
 }
 
 /*===============
-formatacao de conteudo
+formatacao de works
 =================*/
+
 main.works section:last-child{
 
     border: none;
 }
-main.works {
 
-    margin:0 13vw 0 13vw ;
-}
 main.works section {
 
     border-bottom: 1px solid #e0e0e0;
@@ -91,6 +94,76 @@ main.works section p span {
     font-weight: 700;
     padding: 2px 5px 2px 5px;
 }
+
+/*===============
+formatacao de pagina
+=================*/
+
+section.banner {
+
+    display: flex ;
+    margin: 10vw 0 3vw 0;
+
+
+}
+section.banner h1 {
+
+    font-size: 4vw;
+}
+section.banner p {
+
+    font-size: x-large;
+    margin: 3vw 3vw 3vw 0
+}
+
+section.banner button {
+
+    background-color: #ff6464;
+    color: white;
+    border-radius: 2px ;
+    padding: 5px 10px 5px 10px;
+
+}
+
+section.posts {
+
+    background-color: #edf7fa;
+    padding: 2vw 10px 2vw 10px;
+}
+
+section.posts h2 {
+
+    font-weight: normal;
+    margin: 0 0 2vw 0;
+}
+
+section.posts ul {
+
+    display: flex;
+    
+    
+}
+
+section.posts ul li {
+
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 0 2vw 0 0 ;
+}
+
+section.posts ul li p {
+
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+
+section.posts ul li:last-child {
+
+     margin: 0;
+}
+
+
+ 
+
 
 /*===============
 formatacao do rodape
