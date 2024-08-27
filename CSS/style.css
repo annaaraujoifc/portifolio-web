@@ -24,12 +24,12 @@ html {
 html body a {
     text-decoration: none;
     color: #21243D;
-    
+
 }
 
 main {
 
-    margin:0 13vw 0 13vw ;
+    margin: 0 13vw 0 13vw;
 }
 
 
@@ -37,18 +37,18 @@ main {
 formatacao do topo
 =================*/
 
-header {
 
-    margin: 0 5vw 3vw 5vw ;
-}
 header nav ul {
 
     display: flex;
     justify-content: right;
+    
 }
 
 header nav ul li {
-    margin: 1vw 5px 5px;
+
+    margin: 1vw 5px 5px ;
+    
 }
 
 header nav ul li.cor a {
@@ -60,7 +60,7 @@ header nav ul li.cor a {
 formatacao de works
 =================*/
 
-main.works section:last-child{
+main.works section:last-child {
 
     border: none;
 }
@@ -70,17 +70,19 @@ main.works section {
     border-bottom: 1px solid #e0e0e0;
     padding: 2vw 0 2vw 0;
 }
+
 main.works h1 {
 
     margin: 0 0 0 0;
     font-weight: normal;
-    
+
 
 }
- section p {
 
-  margin: 2vw 0 2vw 0;
-  
+section p {
+
+    margin: 2vw 0 2vw 0;
+
 
 }
 
@@ -95,21 +97,28 @@ main.works section p span {
     padding: 2px 5px 2px 5px;
 }
 
+
+
+
+
+
 /*===============
 formatacao de pagina
 =================*/
 
 section.banner {
 
-    display: flex ;
-    margin: 10vw 0 3vw 0;
+    display: flex;
+    margin: 10vw 2vw 2vw 0vw;
 
 
 }
+
 section.banner h1 {
 
     font-size: 4vw;
 }
+
 section.banner p {
 
     font-size: x-large;
@@ -120,7 +129,7 @@ section.banner button {
 
     background-color: #ff6464;
     color: white;
-    border-radius: 2px ;
+    border-radius: 2px;
     padding: 5px 10px 5px 10px;
 
 }
@@ -129,6 +138,7 @@ section.posts {
 
     background-color: #edf7fa;
     padding: 2vw 10px 2vw 10px;
+    margin: 0 0 0 0;
 }
 
 section.posts h2 {
@@ -140,15 +150,15 @@ section.posts h2 {
 section.posts ul {
 
     display: flex;
-    
-    
+
+
 }
 
 section.posts ul li {
 
     background-color: white;
     padding: 10px 20px 10px 20px;
-    margin: 0 2vw 0 0 ;
+    margin: 0 3vw 0 0;
 }
 
 section.posts ul li p {
@@ -158,11 +168,59 @@ section.posts ul li p {
 
 section.posts ul li:last-child {
 
-     margin: 0;
+    margin: 0;
+}
+
+section.works div h3 {
+  
+    margin: 15px 0 4px 0;
+    font-size: 1rem;
+    color: #21243D;
+    font-weight: 900;
+    
+
 }
 
 
- 
+section.works h2 {
+
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 30px 0 25px;
+}
+
+
+
+section.works >div {
+
+    display: flex;
+
+}
+
+section.works div {
+
+    
+    margin: 0 10vw 0 0;
+}
+
+
+div p span {
+
+    background-color: #21243D;
+    color: white;
+    font-weight: 800;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+    margin: 0 15px 0 0;
+}
+
+div p.cinza {
+
+    color: rgb(144, 145, 145);
+
+}
+
+
 
 
 /*===============
@@ -179,14 +237,15 @@ footer nav ul {
 
     display: flex;
     justify-content: center;
+    margin: 0 0 10px 0;
 }
 
 footer nav ul li a {
 
-    padding: 6px;
-    color: rgb(124, 126, 27);
-    margin: 0;
+    padding: 10px;
+    color: rgb(7, 3, 55);
+    margin: 0 0 5px 0;
     font-size: 32px;
-    
-    
+
+
 }
